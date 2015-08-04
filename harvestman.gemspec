@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = ""
 
   # Runtime dependencies
-  gem.add_dependency "nokogiri", "~> 1.5"
+  gem.add_dependency "nokogiri", ">= 1.4"
 
   # Development dependencies
   gem.add_development_dependency "rake"
